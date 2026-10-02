@@ -1,0 +1,27 @@
+{
+  "name": "cloudburst",
+  "displayName": "Cloudburst",
+  "version": "0.1.0",
+  "description": "Instantly give your agent the firepower to run massive workflows: hundreds of parallel model calls, durable runs and a live record of every result.",
+  "author": {
+    "name": "Cloudburst",
+    "url": "https://cloudburst.sh"
+  },
+  "homepage": "https://cloudburst.sh",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "parallel",
+    "batch",
+    "agents",
+    "creative",
+    "research"
+  ],
+  "mcpServers": {
+    "cloudburst": {
+      "type": "http",
+      "url": "https://cloudburst.sh/mcp"
+    }
+  },
+  "repository": "https://github.com/tonacy/cloudburst-claude-plugin"
+}

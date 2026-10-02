@@ -1,0 +1,13 @@
+{
+  "name": "cloudburst",
+  "owner": { "name": "Cloudburst", "url": "https://cloudburst.sh" },
+  "description": "Cloudburst for Claude Code: give your agent the firepower to run massive workflows.",
+  "plugins": [
+    {
+      "name": "cloudburst",
+      "source": "./plugins/cloudburst",
+      "description": "Fan one task out into hundreds of parallel model calls, watch the results land, and keep the best.",
+      "version": "0.1.0"
+    }
+  ]
+}
